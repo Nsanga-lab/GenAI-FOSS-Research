@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI in FOSS Communities - Research Survey</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #2d3748;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            color: #718096;
+            font-size: 1.1em;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #48bb78;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        
+        .info-box {
+            background: #ebf8ff;
+            border-left: 4px solid #4299e1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        
+        .info-box h3 {
+            color: #2b6cb0;
+            margin-bottom: 10px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .info-box ul li {
+            padding: 5px 0;
+            color: #2d3748;
+        }
+        
+        .info-box ul li:before {
+            content: "📌 ";
+        }
+        
+        .form-container {
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 2570px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e2e8f0;
+            text-align: center;
+            color: #718096;
+            font-size: 0.9em;
+        }
+        
+        .footer a {
+            color: #4299e1;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .status-bar {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f4ff;
+            border-radius: 10px;
+        }
+        
+        .status-item {
+            text-align: center;
+        }
+        
+        .status-item .number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2d3748;
+        }
+        
+        .status-item .label {
+            font-size: 0.8em;
+            color: #718096;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 1.5em;
+            }
+            iframe {
+                height: 2800px;
+            }
+            .status-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📊 Assessing the Impact of Generative AI on FOSS Communities</h1>
+            <p class="subtitle">Free and Open-Source Software Community Research</p>
+            <span class="badge">🔬 Academic Research</span>
+        </div>
+        
+        <!-- Information Box -->
+        <div class="info-box">
+            <h3>📋 Survey Information</h3>
+            <ul>
+                <li>Your responses will be used for academic research purposes only</li>
+                <li>Participation is completely voluntary</li>
+                <li>All responses will be treated confidentially and anonymously</li>
+                <li>Estimated completion time: 8-12 minutes</li>
+            </ul>
+        </div>
+        
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-item">
+                <div class="number" id="responseCount">--</div>
+                <div class="label">Responses Collected</div>
+            </div>
+            <div class="status-item">
+                <div class="number">🎯</div>
+                <div class="label">Target: 304 Responses</div>
+            </div>
+            <div class="status-item">
+                <div class="number">📅</div>
+                <div class="label">Data Collection Active</div>
+            </div>
+        </div>
+        
+        <!-- Google Form -->
+        <div class="form-container">
+            <h3 style="margin-bottom: 15px; color: #2d3748;">📝 Please complete the survey below:</h3>
+            
+            <!-- YOUR EMBEDDED FORM -->
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSd8mlJTi9LvwQEOGnWHMHVlWIQ9VW688CcmQ2xrvODbxwO0rg/viewform?embedded=true" 
+                width="640" 
+                height="2570" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0">
+                Loading…
+            </iframe>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>
+                🔒 Your responses are secure and confidential<br>
+                📊 Data stored in: 
+                <a href="https://docs.google.com/spreadsheets/d/1iDa0Psp2vtgOCmBKn8VFc4BG1KqH9U8702rEolqUquQ/edit" target="_blank">
+                    Google Sheets
+                </a>
+                &nbsp;|&nbsp;
+                📁 Repository: 
+                <a href="https://github.com/Nsanga-lab/GenAI-FOSS-Research" target="_blank">
+                    GitHub
+                </a>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.8em;">
+                © 2026 GenAI-FOSS Research Project | 
+                <a href="https://github.com/Nsanga-lab/GenAI-FOSS-Research/blob/main/README.md" target="_blank">
+                    About this Research
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple script to fetch response count from your Google Sheet
+        // Note: This requires additional setup with Google Sheets API
+        // For now, it shows a placeholder
+        document.getElementById('responseCount').textContent = 'Loading...';
+        
+        // You can replace this with actual API call later
+        setTimeout(() => {
+            document.getElementById('responseCount').textContent = '📊';
+        }, 1000);
+    </script>
+</body>
+</html>
