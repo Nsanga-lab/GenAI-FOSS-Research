@@ -1,2 +1,2 @@
-# GenAI-FOSS-Research
-Survey data collection and analysis for GenAI use in FOSS communities
+# GenAI in FOSS Communities Research
+## Data Collection Started: 2026-08-29
