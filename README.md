@@ -13,7 +13,7 @@ Your responses will help us understand how Generative AI is transforming Free an
 
 - **Survey Link**: [Live Survey](https://nsanga-lab.github.io/GenAI-FOSS-Research/)
 - **Google Sheet**: [View Responses](https://docs.google.com/spreadsheets/d/1iDa0Psp2vtgOCmBKn8VFc4BG1KqH9U8702rEolqUquQ/edit)
-- **Target Responses**: 304
+- **Target Responses**: 324
 - **Current Status**: [![Survey Status](https://img.shields.io/badge/status-active-success)](https://github.com/Nsanga-lab/GenAI-FOSS-Research)
 
 ---
